@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA806BEF242331C100A8ED36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806BEE242331C100A8ED36 /* AppDelegate.swift */; };
+		EA806BF1242331C100A8ED36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806BF0242331C100A8ED36 /* SceneDelegate.swift */; };
+		EA806BF4242331C100A8ED36 /* CakeShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA806BF2242331C100A8ED36 /* CakeShop.xcdatamodeld */; };
+		EA806BF6242331C100A8ED36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806BF5242331C100A8ED36 /* ContentView.swift */; };
+		EA806BF8242331C700A8ED36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA806BF7242331C700A8ED36 /* Assets.xcassets */; };
+		EA806BFB242331C700A8ED36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA806BFA242331C700A8ED36 /* Preview Assets.xcassets */; };
+		EA806BFE242331C700A8ED36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA806BFC242331C700A8ED36 /* LaunchScreen.storyboard */; };
+		EA806C09242331C700A8ED36 /* CakeShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806C08242331C700A8ED36 /* CakeShopTests.swift */; };
+		EA806C14242331C700A8ED36 /* CakeShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806C13242331C700A8ED36 /* CakeShopUITests.swift */; };
+		EA806C22242334D400A8ED36 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806C21242334D400A8ED36 /* TestData.swift */; };
+		EA806C2424233F8000A8ED36 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806C2324233F8000A8ED36 /* CommonClass.swift */; };
+		EA806C2C2423437B00A8ED36 /* Arvo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C272423437B00A8ED36 /* Arvo-Bold.ttf */; };
+		EA806C2D2423437B00A8ED36 /* Arvo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C282423437B00A8ED36 /* Arvo-BoldItalic.ttf */; };
+		EA806C2E2423437B00A8ED36 /* Arvo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C292423437B00A8ED36 /* Arvo-Italic.ttf */; };
+		EA806C2F2423437B00A8ED36 /* Arvo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C2A2423437B00A8ED36 /* Arvo-Regular.ttf */; };
+		EA806C302423437B00A8ED36 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA806C2B2423437B00A8ED36 /* SIL Open Font License.txt */; };
+		EA806C37242346AA00A8ED36 /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C32242346AA00A8ED36 /* SFUIText-Bold.ttf */; };
+		EA806C38242346AA00A8ED36 /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C33242346AA00A8ED36 /* SFUIText-Light.ttf */; };
+		EA806C39242346AA00A8ED36 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C34242346AA00A8ED36 /* SFUIText-Medium.ttf */; };
+		EA806C3A242346AA00A8ED36 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C35242346AA00A8ED36 /* SFUIText-Regular.ttf */; };
+		EA806C3B242346AA00A8ED36 /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA806C36242346AA00A8ED36 /* SFUIText-Semibold.ttf */; };
+		EA806C3F242380A700A8ED36 /* TextWithAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA806C3E242380A700A8ED36 /* TextWithAttributedString.swift */; };
+		EAE8E1C42424A37500F310DF /* CakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8E1C32424A37500F310DF /* CakeDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA806C05242331C700A8ED36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA806BE3242331C100A8ED36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA806BEA242331C100A8ED36;
+			remoteInfo = CakeShop;
+		};
+		EA806C10242331C700A8ED36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA806BE3242331C100A8ED36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA806BEA242331C100A8ED36;
+			remoteInfo = CakeShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA806BEB242331C100A8ED36 /* CakeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA806BEE242331C100A8ED36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA806BF0242331C100A8ED36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA806BF3242331C100A8ED36 /* CakeShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CakeShop.xcdatamodel; sourceTree = "<group>"; };
+		EA806BF5242331C100A8ED36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA806BF7242331C700A8ED36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA806BFA242331C700A8ED36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA806BFD242331C700A8ED36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA806BFF242331C700A8ED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA806C04242331C700A8ED36 /* CakeShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA806C08242331C700A8ED36 /* CakeShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeShopTests.swift; sourceTree = "<group>"; };
+		EA806C0A242331C700A8ED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA806C0F242331C700A8ED36 /* CakeShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA806C13242331C700A8ED36 /* CakeShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeShopUITests.swift; sourceTree = "<group>"; };
+		EA806C15242331C700A8ED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA806C21242334D400A8ED36 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		EA806C2324233F8000A8ED36 /* CommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
+		EA806C272423437B00A8ED36 /* Arvo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Bold.ttf"; sourceTree = "<group>"; };
+		EA806C282423437B00A8ED36 /* Arvo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EA806C292423437B00A8ED36 /* Arvo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Italic.ttf"; sourceTree = "<group>"; };
+		EA806C2A2423437B00A8ED36 /* Arvo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Regular.ttf"; sourceTree = "<group>"; };
+		EA806C2B2423437B00A8ED36 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		EA806C32242346AA00A8ED36 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		EA806C33242346AA00A8ED36 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		EA806C34242346AA00A8ED36 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		EA806C35242346AA00A8ED36 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		EA806C36242346AA00A8ED36 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		EA806C3E242380A700A8ED36 /* TextWithAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithAttributedString.swift; sourceTree = "<group>"; };
+		EAE8E1C32424A37500F310DF /* CakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA806BE8242331C100A8ED36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA806C01242331C700A8ED36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA806C0C242331C700A8ED36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA806BE2242331C100A8ED36 = {
+			isa = PBXGroup;
+			children = (
+				EA806BED242331C100A8ED36 /* CakeShop */,
+				EA806C07242331C700A8ED36 /* CakeShopTests */,
+				EA806C12242331C700A8ED36 /* CakeShopUITests */,
+				EA806BEC242331C100A8ED36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA806BEC242331C100A8ED36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA806BEB242331C100A8ED36 /* CakeShop.app */,
+				EA806C04242331C700A8ED36 /* CakeShopTests.xctest */,
+				EA806C0F242331C700A8ED36 /* CakeShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA806BED242331C100A8ED36 /* CakeShop */ = {
+			isa = PBXGroup;
+			children = (
+				EA806C252423437B00A8ED36 /* Font */,
+				EA806BEE242331C100A8ED36 /* AppDelegate.swift */,
+				EA806C2324233F8000A8ED36 /* CommonClass.swift */,
+				EA806BF0242331C100A8ED36 /* SceneDelegate.swift */,
+				EA806BF5242331C100A8ED36 /* ContentView.swift */,
+				EA806BF7242331C700A8ED36 /* Assets.xcassets */,
+				EA806BFC242331C700A8ED36 /* LaunchScreen.storyboard */,
+				EA806BFF242331C700A8ED36 /* Info.plist */,
+				EA806BF2242331C100A8ED36 /* CakeShop.xcdatamodeld */,
+				EA806BF9242331C700A8ED36 /* Preview Content */,
+				EA806C21242334D400A8ED36 /* TestData.swift */,
+				EA806C3E242380A700A8ED36 /* TextWithAttributedString.swift */,
+				EAE8E1C32424A37500F310DF /* CakeDetail.swift */,
+			);
+			path = CakeShop;
+			sourceTree = "<group>";
+		};
+		EA806BF9242331C700A8ED36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA806BFA242331C700A8ED36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA806C07242331C700A8ED36 /* CakeShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA806C08242331C700A8ED36 /* CakeShopTests.swift */,
+				EA806C0A242331C700A8ED36 /* Info.plist */,
+			);
+			path = CakeShopTests;
+			sourceTree = "<group>";
+		};
+		EA806C12242331C700A8ED36 /* CakeShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA806C13242331C700A8ED36 /* CakeShopUITests.swift */,
+				EA806C15242331C700A8ED36 /* Info.plist */,
+			);
+			path = CakeShopUITests;
+			sourceTree = "<group>";
+		};
+		EA806C252423437B00A8ED36 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EA806C31242346AA00A8ED36 /* SFUIText */,
+				EA806C262423437B00A8ED36 /* arvo */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EA806C262423437B00A8ED36 /* arvo */ = {
+			isa = PBXGroup;
+			children = (
+				EA806C272423437B00A8ED36 /* Arvo-Bold.ttf */,
+				EA806C282423437B00A8ED36 /* Arvo-BoldItalic.ttf */,
+				EA806C292423437B00A8ED36 /* Arvo-Italic.ttf */,
+				EA806C2A2423437B00A8ED36 /* Arvo-Regular.ttf */,
+				EA806C2B2423437B00A8ED36 /* SIL Open Font License.txt */,
+			);
+			path = arvo;
+			sourceTree = "<group>";
+		};
+		EA806C31242346AA00A8ED36 /* SFUIText */ = {
+			isa = PBXGroup;
+			children = (
+				EA806C32242346AA00A8ED36 /* SFUIText-Bold.ttf */,
+				EA806C33242346AA00A8ED36 /* SFUIText-Light.ttf */,
+				EA806C34242346AA00A8ED36 /* SFUIText-Medium.ttf */,
+				EA806C35242346AA00A8ED36 /* SFUIText-Regular.ttf */,
+				EA806C36242346AA00A8ED36 /* SFUIText-Semibold.ttf */,
+			);
+			path = SFUIText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA806BEA242331C100A8ED36 /* CakeShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA806C18242331C700A8ED36 /* Build configuration list for PBXNativeTarget "CakeShop" */;
+			buildPhases = (
+				EA806BE7242331C100A8ED36 /* Sources */,
+				EA806BE8242331C100A8ED36 /* Frameworks */,
+				EA806BE9242331C100A8ED36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CakeShop;
+			productName = CakeShop;
+			productReference = EA806BEB242331C100A8ED36 /* CakeShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA806C03242331C700A8ED36 /* CakeShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA806C1B242331C700A8ED36 /* Build configuration list for PBXNativeTarget "CakeShopTests" */;
+			buildPhases = (
+				EA806C00242331C700A8ED36 /* Sources */,
+				EA806C01242331C700A8ED36 /* Frameworks */,
+				EA806C02242331C700A8ED36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA806C06242331C700A8ED36 /* PBXTargetDependency */,
+			);
+			name = CakeShopTests;
+			productName = CakeShopTests;
+			productReference = EA806C04242331C700A8ED36 /* CakeShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA806C0E242331C700A8ED36 /* CakeShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA806C1E242331C700A8ED36 /* Build configuration list for PBXNativeTarget "CakeShopUITests" */;
+			buildPhases = (
+				EA806C0B242331C700A8ED36 /* Sources */,
+				EA806C0C242331C700A8ED36 /* Frameworks */,
+				EA806C0D242331C700A8ED36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA806C11242331C700A8ED36 /* PBXTargetDependency */,
+			);
+			name = CakeShopUITests;
+			productName = CakeShopUITests;
+			productReference = EA806C0F242331C700A8ED36 /* CakeShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA806BE3242331C100A8ED36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ubrain_iOS2;
+				TargetAttributes = {
+					EA806BEA242331C100A8ED36 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					EA806C03242331C700A8ED36 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = EA806BEA242331C100A8ED36;
+					};
+					EA806C0E242331C700A8ED36 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = EA806BEA242331C100A8ED36;
+					};
+				};
+			};
+			buildConfigurationList = EA806BE6242331C100A8ED36 /* Build configuration list for PBXProject "CakeShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA806BE2242331C100A8ED36;
+			productRefGroup = EA806BEC242331C100A8ED36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA806BEA242331C100A8ED36 /* CakeShop */,
+				EA806C03242331C700A8ED36 /* CakeShopTests */,
+				EA806C0E242331C700A8ED36 /* CakeShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA806BE9242331C100A8ED36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA806BFE242331C700A8ED36 /* LaunchScreen.storyboard in Resources */,
+				EA806BFB242331C700A8ED36 /* Preview Assets.xcassets in Resources */,
+				EA806C39242346AA00A8ED36 /* SFUIText-Medium.ttf in Resources */,
+				EA806C3A242346AA00A8ED36 /* SFUIText-Regular.ttf in Resources */,
+				EA806C2E2423437B00A8ED36 /* Arvo-Italic.ttf in Resources */,
+				EA806C3B242346AA00A8ED36 /* SFUIText-Semibold.ttf in Resources */,
+				EA806C302423437B00A8ED36 /* SIL Open Font License.txt in Resources */,
+				EA806C2F2423437B00A8ED36 /* Arvo-Regular.ttf in Resources */,
+				EA806C38242346AA00A8ED36 /* SFUIText-Light.ttf in Resources */,
+				EA806BF8242331C700A8ED36 /* Assets.xcassets in Resources */,
+				EA806C2D2423437B00A8ED36 /* Arvo-BoldItalic.ttf in Resources */,
+				EA806C2C2423437B00A8ED36 /* Arvo-Bold.ttf in Resources */,
+				EA806C37242346AA00A8ED36 /* SFUIText-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA806C02242331C700A8ED36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA806C0D242331C700A8ED36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA806BE7242331C100A8ED36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA806BF4242331C100A8ED36 /* CakeShop.xcdatamodeld in Sources */,
+				EA806BEF242331C100A8ED36 /* AppDelegate.swift in Sources */,
+				EAE8E1C42424A37500F310DF /* CakeDetail.swift in Sources */,
+				EA806BF6242331C100A8ED36 /* ContentView.swift in Sources */,
+				EA806C22242334D400A8ED36 /* TestData.swift in Sources */,
+				EA806C3F242380A700A8ED36 /* TextWithAttributedString.swift in Sources */,
+				EA806BF1242331C100A8ED36 /* SceneDelegate.swift in Sources */,
+				EA806C2424233F8000A8ED36 /* CommonClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA806C00242331C700A8ED36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA806C09242331C700A8ED36 /* CakeShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA806C0B242331C700A8ED36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA806C14242331C700A8ED36 /* CakeShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA806C06242331C700A8ED36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA806BEA242331C100A8ED36 /* CakeShop */;
+			targetProxy = EA806C05242331C700A8ED36 /* PBXContainerItemProxy */;
+		};
+		EA806C11242331C700A8ED36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA806BEA242331C100A8ED36 /* CakeShop */;
+			targetProxy = EA806C10242331C700A8ED36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA806BFC242331C700A8ED36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA806BFD242331C700A8ED36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA806C16242331C700A8ED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA806C17242331C700A8ED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA806C19242331C700A8ED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CakeShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CakeShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UbrainStudio.CakeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA806C1A242331C700A8ED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CakeShop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CakeShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UbrainStudio.CakeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA806C1C242331C700A8ED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CakeShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UbrainStudio.CakeShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CakeShop.app/CakeShop";
+			};
+			name = Debug;
+		};
+		EA806C1D242331C700A8ED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CakeShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UbrainStudio.CakeShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CakeShop.app/CakeShop";
+			};
+			name = Release;
+		};
+		EA806C1F242331C700A8ED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CakeShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UbrainStudio.CakeShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CakeShop;
+			};
+			name = Debug;
+		};
+		EA806C20242331C700A8ED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CakeShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UbrainStudio.CakeShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CakeShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA806BE6242331C100A8ED36 /* Build configuration list for PBXProject "CakeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA806C16242331C700A8ED36 /* Debug */,
+				EA806C17242331C700A8ED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA806C18242331C700A8ED36 /* Build configuration list for PBXNativeTarget "CakeShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA806C19242331C700A8ED36 /* Debug */,
+				EA806C1A242331C700A8ED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA806C1B242331C700A8ED36 /* Build configuration list for PBXNativeTarget "CakeShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA806C1C242331C700A8ED36 /* Debug */,
+				EA806C1D242331C700A8ED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA806C1E242331C700A8ED36 /* Build configuration list for PBXNativeTarget "CakeShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA806C1F242331C700A8ED36 /* Debug */,
+				EA806C20242331C700A8ED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA806BF2242331C100A8ED36 /* CakeShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA806BF3242331C100A8ED36 /* CakeShop.xcdatamodel */,
+			);
+			currentVersion = EA806BF3242331C100A8ED36 /* CakeShop.xcdatamodel */;
+			path = CakeShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA806BE3242331C100A8ED36 /* Project object */;
+}
